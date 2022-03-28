@@ -7,7 +7,7 @@ public class Main{
     public static void main(String[] args)  throws FileNotFoundException,IOException{
 
         //reading
-        Scanner TextFile = new Scanner(new File("input.txt"));
+        Scanner TextFile = new Scanner(new File("input1.txt"));
 
         Map<Character, Integer> charfrequency = new TreeMap<>();
 

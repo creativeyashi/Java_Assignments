@@ -43,7 +43,6 @@ public class Assignment_1 {
             pattern = sc.nextLine().toLowerCase().trim();
             if (hasMatchingFiles(pattern)) {
                 System.out.println("Files with the pattern \"" + pattern + "\"");
-                System.out.println("**************************************");
                 matchedFileNames(pattern);
             } else {
                 System.out.println("No files found");
