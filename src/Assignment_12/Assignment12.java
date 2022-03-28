@@ -42,6 +42,7 @@ public class Assignment12 {
         students.add(new Student(277, "Anuj Chettiar", 18, "Male", "Computer Science", 2017, 57.5));
 
         // Print the name of all departments in the college
+        
         List<String> departments = students.stream().map(student -> student.engDepartment).collect(Collectors.toList());
         System.out.println(departments);
 
